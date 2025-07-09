@@ -1,13 +1,11 @@
 import React from 'react'
-import NavbarDark from '../Header/NavbarDark'
-import NavbarLight from '../Header/NavbarLight'
 import MainImage from '../Header/MainImage'
+import Navbar from '../Header/Navbar'
 
 function Header() {
   return (
-    <div>
-      <NavbarDark />
-      <NavbarLight />
+    <div className='relative w-[1,440px] h-[852px]'> 
+      <Navbar />
       <MainImage />
     </div>
   )
