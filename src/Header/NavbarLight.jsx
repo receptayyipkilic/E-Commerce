@@ -4,7 +4,7 @@ import Collapse from '../NavbarLight/Collapse'
 
 function NavbarLight() {
   return (
-    <div className="w-[1,437px] h-[58px] flex justify-between items-center relative ">
+    <div className="flex w-full h-[58px] items-center">
       <Brand />
       <Collapse />
     </div>

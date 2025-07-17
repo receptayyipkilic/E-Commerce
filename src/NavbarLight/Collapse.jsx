@@ -4,9 +4,9 @@ import NavLogin from './LoginHome/NavLogin'
 
 function Collapse() {
   return (
-    <div className='w-[1,155px] h-[58px] absolute left-[265px] relative flex  items-center'>
-       <NavHome />
-       <NavLogin />
+    <div className="flex flex-1 items-center justify-between h-[58px]">
+      <NavHome />
+      <NavLogin />
     </div>
   )
 }
