@@ -8,7 +8,7 @@ import ShopCard from '../PageContent/ShopCard'
 
 function PageContent() {
   return (
-    <div>
+    <div className="w-full">
  <Clients />
 <ShopCard />
 <ProductCard />

@@ -4,7 +4,7 @@ import Navbar from '../Header/Navbar'
 
 function Header() {
   return (
-    <div className='relative w-[1,440px] h-[852px]'> 
+    <div className='h-[852px] bg-[#FFFFFF] '> 
       <Navbar />
       <MainImage />
     </div>

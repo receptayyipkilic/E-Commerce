@@ -1,9 +1,16 @@
-import React from 'react'
+import React from "react";
+import MainImageText from "./MainImageText";
+import MainImagePhoto from "./MainImagePhoto";
 
-function MainImage() {
+const MainImage = () => {
   return (
-    <div className="w-[1,292px] h-[622px] rounded-[20px] absolute top-[178px] left-[59px]">MainImage</div>
-  )
-}
+    <div className="flex justify-center w-full mt-[20px]">
+      <div className="w-[90%] h-[615px] rounded-[20px] flex items-center bg-gradient-to-r from-[#96E9FB] to-[#ABECD6] justify-between">
+        <MainImageText />
+        <MainImagePhoto />  
+      </div>
+    </div>
+  );
+};
 
-export default MainImage
+export default MainImage;

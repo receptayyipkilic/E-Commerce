@@ -6,7 +6,7 @@ import PageContent from '../Layout/PageContent'
 
 function Feed() {
 return (
-<div>
+<div className="w-full min-h-screen">
 <Header />
 <PageContent />
 <Footer />
