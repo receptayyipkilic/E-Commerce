@@ -8,7 +8,7 @@ import img6 from "../assets/6.png";
 
 function Clients() {
   return (
-    <div className='grid grid-cols-6 gap-[30px] w-[1300px] h-[175px] mx-auto'>
+    <div className='grid grid-cols-6 gap-[30px] w-[1400px] h-[175px] mx-auto'>
       <div>
       <a href="#"><img src={img1}/></a>
         </div>
