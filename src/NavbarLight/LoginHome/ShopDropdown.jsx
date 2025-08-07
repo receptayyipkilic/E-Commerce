@@ -11,7 +11,7 @@ function ShopDropdown() {
       onMouseLeave={() => setOpen(false)}
     >
       <button
-        className="flex items-center font-montserrat font-bold text-[14px] leading-[24px] tracking-[0.2px] text-[#252B42] focus:outline-none border-none bg-transparent"
+        className="flex items-center font-montserrat font-[550] text-[14px] text-[#252B42] focus:outline-none border-none bg-transparent"
         type="button"
       >
         Shop <ChevronDown size={16} className="ml-1" />
@@ -20,7 +20,7 @@ function ShopDropdown() {
         <div className="absolute w-[396px] h-[272px] bg-[#FFFFFF]  flex ">
           <div>
             <div className="font-bold "> 
-              <button className="border-none bg-transparent font-montserrat font-bold text-[14px] leading-[24px] tracking-[0.2px] ">Kadın</button></div>
+              <button className="border-none bg-transparent font-montserrat font-[700] text-[14px] leading-[24px] tracking-[0.2px] ">Kadın</button></div>
             <ul className="">
               <li>Bags</li>
               <li>Belts</li>
@@ -30,7 +30,7 @@ function ShopDropdown() {
             </ul>
           </div>
           <div>
-            <div className="font-bold mb-2">Erkek</div>
+            <div className="font-[700] mb-2">Erkek</div>
             <ul className="space-y-1">
               <li>Bags</li>
               <li>Belts</li>

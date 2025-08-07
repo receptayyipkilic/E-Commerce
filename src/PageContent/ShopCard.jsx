@@ -5,7 +5,7 @@ import im3 from "../assets/image3.png";
 
 function ShopCard() {
   return (
-    <div className="grid grid-cols-2 h-[732px] w-[1500px] pl-[150px] justify-center ">
+    <div className="grid grid-cols-2 h-[732px] w-[1500px] justify-center mx-auto">
       <div className="h-[572px] relative">
         <img
           src={im1}
@@ -14,7 +14,7 @@ function ShopCard() {
         />
         <div className="absolute bottom-px w-[420px] h-[238px] bg-[#2D8BC0BF] bg-opacity-75 flex flex-col pl-[70px] justify-start">
           <h6 className="text-[#FFFFFF] font-bold w-[200px] mb-[20px] text-[24px] leading-[32px] tracking-[0.2px] font-montserrat">Top Product Of the Week</h6>
-          <button className="w-[198px] h-[52px] rounded-[5px] mb-[10px] bg-transparent border-[#FFFFFF] border-[1px] text-[#FFFFFF] font-bold text-[14px] leading-[22px] tracking-[0.2px] font-montserrat">
+          <button className="w-[198px] h-[52px] rounded-[5px] mb-[10px] bg-transparent border-[#FFFFFF] border-[1px] text-[#FFFFFF] font-[700] text-[14px] font-montserrat">
             EXPLORE ITEMS
           </button>
         </div>
@@ -27,8 +27,8 @@ function ShopCard() {
             className="w-full h-full object-cover"
           />
           <div className=" absolute bottom-px bg-[#2D8BC0BF] bg-opacity-75 w-[347px] h-[173px] flex flex-col pl-[50px] justify-start ">
-            <h6 className="text-[#FFFFFF] font-bold text-[20px] mb-[25px] leading-[22px] tracking-[0.2px] font-montserrat ">Top Product Of the Week</h6>
-            <button className="w-[198px] h-[52px] rounded-[5px]  bg-transparent border-[#FFFFFF] border-[1px] text-[#FFFFFF] font-bold text-[14px] leading-[22px] tracking-[0.2px] font-montserrat">
+            <h6 className="text-[#FFFFFF] font-bold text-[20px] mb-[25px] font-montserrat ">Top Product Of the Week</h6>
+            <button className="w-[198px] h-[52px] rounded-[5px]  bg-transparent border-[#FFFFFF] border-[1px] text-[#FFFFFF] font-[700] text-[14px] font-montserrat">
             EXPLORE ITEMS
           </button>
           </div>
@@ -40,8 +40,8 @@ function ShopCard() {
             className="w-full h-full object-cover"
           />
           <div className="absolute bottom-px bg-[#2D8BC0BF] bg-opacity-75 w-[347px] h-[173px] flex flex-col pl-[50px] justify-start ">
-            <h6 className="text-[#FFFFFF] font-bold text-[20px] mb-[25px] leading-[22px] tracking-[0.2px] font-montserrat">Top Product Of the Week</h6>
-            <button className="w-[198px] h-[52px] rounded-[5px] bg-transparent border-[#FFFFFF] border-[1px] text-[#FFFFFF] font-bold text-[14px] leading-[22px] tracking-[0.2px] font-montserrat">
+            <h6 className="text-[#FFFFFF] font-bold text-[20px] mb-[25px]  font-montserrat">Top Product Of the Week</h6>
+            <button className="w-[198px] h-[52px] rounded-[5px] bg-transparent border-[#FFFFFF] border-[1px] text-[#FFFFFF] font-[700] text-[14px] font-montserrat">
             EXPLORE ITEMS
           </button>
           </div>
